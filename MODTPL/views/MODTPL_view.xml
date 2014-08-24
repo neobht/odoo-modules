@@ -14,7 +14,7 @@
 
         <record id="view_MODTPL_tree" model="ir.ui.view">
             <field name="name">MODTPL.tree</field>
-            <field name="model">MODTPL.main</field>
+            <field name="model">modtpl.main</field>
             <field name="type">tree</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
@@ -27,7 +27,7 @@
         
         <record id="view_MODTPL_form" model="ir.ui.view">
             <field name="name">MODTPL.form</field>
-            <field name="model">MODTPL.main</field>
+            <field name="model">modtpl.main</field>
             <field name="type">form</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
@@ -40,7 +40,7 @@
         
         <record id="view_MODTPL_search" model="ir.ui.view">
             <field name="name">MODTPL.search</field>
-            <field name="model">MODTPL.main</field>
+            <field name="model">modtpl.main</field>
             <field name="type">search</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
