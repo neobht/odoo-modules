@@ -25,8 +25,8 @@
 
 from openerp import models, api, fields
 
-class MODTPL(models.Model):
-    _name = 'MODTPL'
+class MODTPL_main(models.Model):
+    _name = 'MODTPL.main'
     _description = ''
 
     name = fields.Char(string='Name', size=64, help='Help note')
