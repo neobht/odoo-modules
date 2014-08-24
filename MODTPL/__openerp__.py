@@ -36,6 +36,7 @@ The common interface and structure for modules.
     'depends': ['base'],
     'data': [
         'views/MODTPL_view.xml',
+        'security/ir.model.access.csv',
     ],
     'demo': [],
     'test': [],
