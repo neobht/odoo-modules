@@ -3,4 +3,4 @@ odoo-modules
 
 Modules for Odoo
 
-mod_tpl  - Module Template
+MODTPL  - Module for creating base template structure of odoo module.
