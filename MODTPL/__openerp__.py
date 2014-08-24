@@ -34,7 +34,9 @@ The common interface and structure for modules.
     'author': 'Anton Goroshkin',
     'website': 'http://www.sibsau.ru',
     'depends': ['base'],
-    'data': [],
+    'data': [
+        'views/MODTPL_view.xml',
+    ],
     'demo': [],
     'test': [],
     'installable': True,
