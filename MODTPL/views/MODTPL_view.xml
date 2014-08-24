@@ -53,7 +53,7 @@
         <record model="ir.actions.act_window" id="act_open_MODTPL_view">
             <field name="name">Label</field>
             <field name="type">ir.actions.act_window</field>
-            <field name="res_model">MODTPL</field>
+            <field name="res_model">modtpl.main</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="search_view_id" ref="view_MODTPL_search"/>
