@@ -23,16 +23,21 @@
 ##############################################################################
 
 
-from openerp import Model, api, fields
+from openerp import models, api, fields
 
-class MODTPL(Model):
-    _name = 'MODTPL.main'
+class MODTPL(models.Model):
+    _name = 'MODTPL'
     _description = ''
 
-    name = fields.Char(string='Label', size=64, help='Help note')
-    user_id = fields.Many2one('res.users', string='USER_ID', help='Help note')
-
-
+    name = fields.Char(string='Name', size=64, help='Help note')
+    user_id = fields.Many2one('res.users', string='USER_ID',
+                                  default=lambda self: self.env.user,
+                                  readonly=False, states={'done': [('readonly', True)]})
+    state = fields.Selection([
+                    ('draft', 'Draft'),
+                    ('cancel', 'Cancel'),
+                    ('done', 'Done')
+                ], string='Status', default='draft', readonly=True, required=True, copy=False, help="")
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
 
