@@ -15,6 +15,6 @@ Extra web feature
     'active': False,
     'data': ['views/extra.xml', ],
     'qweb': [
-        'static/src/xml/template',
+        'static/src/xml/template.xml',
     ],
 }
