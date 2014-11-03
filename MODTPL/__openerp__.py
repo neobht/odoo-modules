@@ -25,7 +25,7 @@
 
 {
     'name': 'MODTPL',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Tools',
     'description': """
 The common interface and structure for modules.
