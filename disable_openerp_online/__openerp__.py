@@ -36,13 +36,13 @@ come with the standard code:
     "category": "",
     "depends": [
         'base',
-        'mail',
     ],
+#        'mail',
     "data": [
         "views/disable_openerp_online.xml",
         'data/ir_ui_menu.xml',
-        'data/ir_cron.xml',
     ],
+   #     'data/ir_cron.xml',
     "qweb": [
         'static/src/xml/base.xml',
     ],
