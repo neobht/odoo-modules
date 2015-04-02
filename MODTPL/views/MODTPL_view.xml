@@ -18,7 +18,7 @@
             <field name="type">tree</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
-            <tree string="Label">
+            <tree string="Название">
                 <field name="name"/>
                 <field name="user_id"/>
                 <field name="state"/>
@@ -32,7 +32,7 @@
             <field name="type">form</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
-            <form string="Label">
+            <form string="Название">
                 <field name="name"/>
                 <field name="user_id"/>
                 <field name="state"/>
@@ -46,14 +46,14 @@
             <field name="type">search</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
-            <search string="Label">
+            <search string="Название">
                 <field name="name" select="True"/>
             </search>
             </field>
         </record>
         
         <record model="ir.actions.act_window" id="act_open_MODTPL_view">
-            <field name="name">Label</field>
+            <field name="name">Название</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">modtpl.main</field>
             <field name="view_type">form</field>
